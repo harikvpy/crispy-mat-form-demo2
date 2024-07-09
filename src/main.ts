@@ -43,6 +43,14 @@ import { MatButtonModule } from '@angular/material/button';
   ],
   template: `
     <h1>Crispy Forms Demo 2</h1>
+    <div>
+    Crispy Form demo showing
+    <ul>
+      <li>A date iput field</li>
+      <li>A daterange input field</li>
+    </ul>
+
+    </div>
     <form [formGroup]="crispy.form" (ngSubmit)="onSubmit()">
       <crispy-mat-form [crispy]="crispy"></crispy-mat-form>
 
